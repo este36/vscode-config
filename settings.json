@@ -1,0 +1,94 @@
+{
+    "zenMode.showTabs": "single",
+    "editor.minimap.size": "fill",
+    "git.openRepositoryInParentFolders": "never",
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+    "svelte.enable-ts-plugin": true,
+    "editor.fontFamily": "Iosevka, monospace",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "bottom",
+	
+    "editor.cursorBlinking": "blink",
+    "editor.fontWeight": "380",
+    "editor.fontSize": 17,
+
+	"workbench.colorCustomizations": {
+		"editor.background": "#1b1b1b",
+        "editorCursor.background": "#000",
+		"editorCursor.foreground": "#fc0",
+    },
+    
+    "editor.tokenColorCustomizations": {
+        "comments": "#9c5916",
+        "functions": "#d9d9d9",
+        "keywords": "#FFcc00",
+        "variables": "#d9d9d9",
+        "strings": "#309115",
+        "numbers": "#d9d9d9",
+        "types": "#aaaaaa",
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#2f84e0"
+                }
+            },
+            {
+                "scope": "support.type.property-name",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "support.variable",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "support.variable.property",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "variable.other.constant",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "meta.object-literal.key",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "constant.character.escape",
+                "settings": {
+                    "foreground": "#f54b20"
+                }
+            },
+        ]
+    },
+}
