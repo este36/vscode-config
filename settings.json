@@ -90,7 +90,6 @@
                     "foreground": "#f54b20"
                 }
             },
-            
             {
                 "scope": "constant.language",
                 "settings": {
