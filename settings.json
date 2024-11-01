@@ -43,6 +43,24 @@
                 }
             },
             {
+                "scope": "keyword.other.unit",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "support.constant.property-value",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
+                "scope": "constant.other.color.rgb-value",
+                "settings": {
+                    "foreground": "#d9d9d9"
+                }
+            },
+            {
                 "scope": "support.variable",
                 "settings": {
                     "foreground": "#d9d9d9"
